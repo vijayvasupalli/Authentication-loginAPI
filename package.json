@@ -1,19 +1,26 @@
 {
-  "name": "express-js-tutorial",
+  "name": "authentication-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon ./src/index.js",
-    "start:prod": "node ./src/index.js"
+  "homepage": "https://github.com/vijayvasupalli/express-crud-api#readme",
+  "bugs": {
+    "url": "https://github.com/vijayvasupalli/express-crud-api/issues"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijayvasupalli/express-crud-api.git"
+  },
   "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "src/authentication.js",
+  "scripts": {
+    "dev": "nodemon src/authentication.js",
+    "start": "node src/authentication.js"
+  },
   "dependencies": {
-    "express": "^5.2.1",
-    "express-validator": "^7.3.1"
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
